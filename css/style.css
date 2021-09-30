@@ -80,10 +80,12 @@ td{
 .colhead{
   color: #FFFFFF;
   min-width: 125px;
+  width: auto;
   padding: 10px;
   background-color: #7e0825;
   text-transform: uppercase;
   text-align: center;
+  vertical-align: middle;
 
 }
 
