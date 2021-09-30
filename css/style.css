@@ -131,5 +131,9 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
   
 }
