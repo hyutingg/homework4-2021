@@ -80,6 +80,7 @@ td{
 .colhead{
   color: #FFFFFF;
   margin: auto;
+  text-align: center;
   min-width: 125px;
   padding: 10px;
   background-color: #7e0825;
@@ -90,6 +91,8 @@ td{
 .rowhead{
   border-top: 2px solid black;
   border-right: 2px solid black;
+  vertical-align: middle;
+  line-height: 1em;
 
 }
 
@@ -99,6 +102,7 @@ table{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50px;
+
 
 }
 
@@ -123,6 +127,10 @@ tbody tr:last-child td:last-child {
 /*Add selectors and rules here*/
 tr:nth-child(even) {
   background-color: #D1D1D1;
+}
+
+tr:hover {
+  background-color: rgba(126, 8, 37, 0.25);
 }
 
 footer{
