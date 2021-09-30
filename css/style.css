@@ -79,12 +79,12 @@ td{
 
 .colhead{
   color: #FFFFFF;
-  margin: auto;
-  text-align: center;
   min-width: 125px;
   padding: 10px;
   background-color: #7e0825;
   text-transform: uppercase;
+  display: grid;
+  place-content: center;
 
 }
 
